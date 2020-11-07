@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume using  Semantic Elements</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		img{
+			border: 2px solid green;
+		}
+		.parent{
+			display: flex;
+			flex-direction: row;
+			border: 2px solid #000;
+			padding:1%;
+			margin: 1%;
+			width: 95%;
+		}
+		.child1{
+			padding:1%;
+			margin: 2%;
+			width: 25%;
+			height:80%;
+		}
+		.child2{
+			padding:1%;
+			margin: 2%;
+			width: 75%;
+			height:80%;
+		}
+		.la{
+			border: 1px solid darkblue;
+		}
+		.decl{
+			display: flex;
+			flex-direction: row;
+		}
+	</style>
+	
+</head>
+<body>
+	<section class="parent">
+		<article class="child1">
+			<img src="./a241b984a83ae01322c524cab6cfc37d.jpg" width="130px" height="120px" class="rounded">
+			<h3>Ramesh</h3>
+			<h6>Ramesh@gmail.com</h6><br>
+			<aside class="la">
+				<h5>Languages:</h5>
+				<ol>
+					<li>Telugu</li>
+					<li>English</li>
+				</ol>
+			</aside>
+			<br>
+			<aside class="la">
+				<h5>Technical skills:</h5>
+				<ol>
+					
+					<li>Java</li>
+					<li>HTML,CSS,JAVASCRIPT</li>
+				</ol>
+			</aside>
+			<br>
+			<aside class="la">
+				<h5>Hobbies:</h5>
+				<ol>
+					<li>Reading books</li>
+					<li>listening music</li>
+				</ol>
+			</aside>
+		</article>
+		<article class="child2">
+			<header>
+			<p class="h4">Carrier Objective:</p>
+			 <p>To secure challenging position where my knowledge can be used in successive completion and to be an exemplary asset to the working organization.  </p>
+			 </header>
+			 <h4>Acadamic Details:</h4>
+			 <center>
+			 <table border="2px solid creamson">
+                <tr>
+                    <th>S.No</th>
+                    <th>Qualification</th>
+                    <th>College Name</th>
+                    <th>year of passout</th>
+                    <th>Percentage/CGPA</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>MCA</td>
+                    <td>S.V Uiversity</td>
+                    <td>2020</td>
+                    <td>71</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>B.Sc</td>
+                    <td>Mother thresa Degree college</td>
+                    <td>2017</td>
+                    <td>78</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>+2(MPC)</td>
+                    <td>Mother theresa junior collge</td>
+                    <td>2014</td>
+                    <td>84</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>SSC</td>
+                    <td>Z.P High School</td>
+                    <td>2012</td>
+                    <td>8.5</td>
+                </tr>
+			 </table>
+			 </center>
+			 <br>
+			
+			<footer>
+			<h4>Decleration:</h4>
+			<p>I hereby declare that the information provided above is true to my knowledge and I bare responsibility of its contents.</p>
+			<article class="decl">
+				<div>
+					<p>Chittoor</p>
+					<p>Date:</p>
+				</div>
+				<div class="ml-auto">
+					<p>(Ramesh)</p>
+					<p>Signature</p>
+				</div>
+			</article>
+			</footer>
+		</article>
+	</section>
+</body>
+</html>

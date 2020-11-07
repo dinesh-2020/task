@@ -1,0 +1,22 @@
+body{
+   background-color: burlywood;
+}
+.container{
+background-color: burlywood;
+}
+img{
+    border: 2px solid green;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    margin: 2%;
+}
+.la{
+    border: 1px solid darkblue;
+}
+.decl{
+    display: flex;
+    flex-direction: row;
+}
